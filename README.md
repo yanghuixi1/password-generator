@@ -16,4 +16,4 @@ The layout of the repository is as such:
 
 Image of the current website:
 
-![Password Generator Page](/assets/images/password-generator.png)
+![Password Generator Page](/assets/images/password_generator.png)
