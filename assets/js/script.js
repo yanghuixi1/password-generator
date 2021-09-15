@@ -11,6 +11,7 @@ function chooseRandom(arr) {
   return arr[Math.floor(Math.random() * arr.length)];
 }
 
+// This function returns a password length after a validation check
 function generatePasswordLength() {
   var passwordLength = prompt(
     "How many characters? Please input a number between 8 and 128"
@@ -32,7 +33,7 @@ function generatePasswordLength() {
 
   return passwordLength;
 }
-
+// This function returns a string that contains the character possibilities that can occur in the password
 function generateCharacterOptions() {
   var numberConfirm = confirm("Would you like to include numbers?");
   var lowerConfirm = confirm("Would you like to include lowercase letters?");
@@ -63,6 +64,7 @@ function generateCharacterOptions() {
   return combinedOptions;
 }
 
+// This function generate passwords based on the length and character criteria supplied by the user
 function generatePassword() {
   var passwordLength = generatePasswordLength();
   if (passwordLength === null) {
